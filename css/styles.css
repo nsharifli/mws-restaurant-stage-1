@@ -5,12 +5,13 @@ body,td,th,p{
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 10pt;
 	color: #333;
-	line-height: 1.5;
+  line-height: 1.5;
 }
 body {
 	background-color: #fdfdfd;
 	margin: 0;
-	position:relative;
+  position:relative;
+  width: 100%;
 }
 ul, li {
 	font-family: Arial, Helvetica, sans-serif;
@@ -57,6 +58,7 @@ nav {
   padding: 1.5em 0;
   background-color: #252831;
   text-align:center;
+  width: 100%;
 }
 nav h1 {
   margin: auto;
@@ -264,6 +266,7 @@ nav h1 a {
 #reviews-list {
   margin: 0;
   padding: 0;
+  margin-bottom: 50px;
 }
 #reviews-list li {
   display: flex;
