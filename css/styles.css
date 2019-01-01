@@ -276,15 +276,35 @@ nav h1 a {
   border: 2px solid #f3f3f3;
   border-radius: 25px 25px;
   list-style-type: none;
-  margin: 0 0 30px;
   overflow: hidden;
-  padding: 0 20px 20px;
   position: relative;
-  width: 85%;
+  width: 100%;
 }
 #reviews-list li p {
-  margin: 0 0 10px;
+
 }
 #restaurant-hours td {
   color: #666;
+}
+.review-rating {
+  background: orange;
+  padding: 0.5em 1.75em;
+  border-radius: 20px 20px;
+  font-size: 1.5em;
+}
+.review-name {
+  font-size: 1.5em;
+  padding: 0.5em 1.75em;
+  color: whitesmoke;
+}
+
+.review-date {
+  font-size: 1.5em;
+  padding: 0.5em 1.75em;
+  color: whitesmoke;
+}
+
+.review-comments {
+  font-size: 1.2em;
+  padding: 0.5em 1.75em;
 }
